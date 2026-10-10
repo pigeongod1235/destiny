@@ -1,0 +1,67 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/door/crimson_door",
+		"1": "block/door/door_metal_silver",
+		"particle": "block/door/crimson_door"
+	},
+	"elements": [
+		{
+			"from": [0.1, 7, 16],
+			"to": [0.9, 10, 16.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 16.05]},
+			"faces": {
+				"east": {"uv": [0, 0, 0.05, 3], "texture": "#1", "cullface": "south"},
+				"south": {"uv": [0, 0, 0.8, 3], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 0, 0.05, 3], "texture": "#1", "cullface": "south"},
+				"up": {"uv": [0, 0, 0.8, 0.05], "texture": "#1", "cullface": "south"},
+				"down": {"uv": [0, 0, 0.8, 0.05], "texture": "#1", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 3],
+			"faces": {
+				"north": {"uv": [13, 0, 14, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [13, 0, 14, 16], "texture": "#0"},
+				"west": {"uv": [13, 0, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [13, 0, 14, 3], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [13, 0, 14, 3], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 13.5, 3],
+			"to": [1, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 3]},
+			"faces": {
+				"east": {"uv": [2.85938, 0, 12.85938, 2.5], "texture": "#0"},
+				"west": {"uv": [2.85938, 0, 12.85938, 2.5], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [2.85938, 0, 3.85938, 10], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [2.85938, 0, 3.85938, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 13],
+			"to": [1, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 13]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 1, 3], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 1, 3], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 23, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

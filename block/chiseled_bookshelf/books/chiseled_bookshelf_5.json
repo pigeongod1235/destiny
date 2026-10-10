@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by TheWaschtlPlays using Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/bookshelf/book6",
+		"2": "block/bookshelf/book5",
+		"3": "block/bookshelf/book4",
+		"particle": "block/bookshelf/door_oak"
+	},
+	"elements": [
+		{
+			"from": [7.575, 0.9, 0.25],
+			"to": [8.775, 6.725, 3.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.75, 0.9, 8.25]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 4.37813, 8.02812, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"west": {"uv": [0, 4.39375, 7.98125, 16], "texture": "#1"},
+				"up": {"uv": [11.40625, 4.90938, 13.60625, 13.64063], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.25, 0.9, 0],
+			"to": [7.55, 6.95, 3.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.75, 0.9, 8.25]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 4.37813, 8.02812, 16], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"west": {"uv": [0, 4.39375, 7.98125, 16], "texture": "#3"},
+				"up": {"uv": [11.40625, 4.90938, 13.60625, 13.64063], "texture": "#3"},
+				"down": {"uv": [11.40625, 4.9375, 13.60625, 13.62188], "rotation": 270, "texture": "#3"}
+			}
+		},
+		{
+			"from": [4.925, 0.9, 0.1],
+			"to": [6.225, 6.95, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.75, 0.9, 8.25]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 4.37813, 8.02812, 16], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"west": {"uv": [0, 4.40625, 8.01563, 16], "texture": "#2"},
+				"up": {"uv": [11.40625, 4.90938, 13.60625, 13.64063], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [7.75, 8.3, 8.05],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

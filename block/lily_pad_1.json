@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/flowers/lillypad/lily_pad_4",
+		"1": "block/flowers/lillypad/lily_pad_1",
+		"particle": "block/flowers/lillypad/lily_pad_4"
+	},
+	"elements": [
+		{
+			"from": [-6, 0.3, 3],
+			"to": [4, 0.3, 13],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [7.70313, 7.20313, 16, 16], "texture": "#0"},
+				"down": {"uv": [7.70313, 16, 16, 7.1875], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-1.6, -11.7, 7.35],
+			"to": [-1.6, 0.3, 9.35],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 6.53125, 2, 16], "texture": "#1"},
+				"west": {"uv": [0, 6.53125, 2, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4.81421, -11.7, 6.06472],
+			"to": [4.81421, 0.3, 8.06472],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [5, 0, 7]},
+			"faces": {
+				"east": {"uv": [0, 6.53125, 2, 16], "texture": "#1"},
+				"west": {"uv": [0, 6.53125, 2, 16], "texture": "#1"}
+			}
+		}
+	]
+}

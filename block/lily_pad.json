@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/flowers/lillypad/lily",
+		"particle": "block/flowers/lillypad/lily"
+	},
+	"elements": [
+		{
+			"from": [0.9, 0.4, -1],
+			"to": [8.9, 0.4, 7],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 6.75, 8]},
+			"faces": {
+				"up": {"uv": [4.98438, 0, 0, 5.5625], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [16, 5.5625, 11.0625, 0], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, -0.1, 3.1],
+			"to": [13, -0.1, 8.1],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 6.75, 8]},
+			"faces": {
+				"up": {"uv": [16, 10.84375, 10.85938, 16], "texture": "#0", "cullface": "down"},
+				"down": {"uv": [9.71875, 16, 4.57813, 10.84375], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0.2, 5],
+			"to": [10, 0.2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.75, 8]},
+			"faces": {
+				"up": {"uv": [5.04688, 5.20313, 0, 10.70313], "texture": "#0"},
+				"down": {"uv": [16, 5.5, 11.21875, 0], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "": 
+	[
+	{
+      "model": "minecraft:block/azure_bluet1"
+    },
+		{
+      "model": "minecraft:block/azure_bluet1", "y": 90
+    },
+		{
+      "model": "minecraft:block/azure_bluet1", "y": 180
+    },
+		{
+      "model": "minecraft:block/azure_bluet1", "y": 270
+    },
+	{
+      "model": "minecraft:block/azure_bluet2"
+    },
+		{
+      "model": "minecraft:block/azure_bluet2", "y": 90
+    },
+		{
+      "model": "minecraft:block/azure_bluet2", "y": 180
+    },
+		{
+      "model": "minecraft:block/azure_bluet2", "y": 270
+    },
+	{
+      "model": "minecraft:block/azure_bluet3"
+    },
+		{
+      "model": "minecraft:block/azure_bluet3", "y": 90
+    },
+		{
+      "model": "minecraft:block/azure_bluet3", "y": 180
+    },
+		{
+      "model": "minecraft:block/azure_bluet3", "y": 270
+    }
+	]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "": 
+	[
+	{
+      "model": "minecraft:block/dead_bush_1"
+    },
+		{
+      "model": "minecraft:block/dead_bush_1", "y": 90
+    },
+		{
+      "model": "minecraft:block/dead_bush_1", "y": 180
+    },
+		{
+      "model": "minecraft:block/dead_bush_1", "y": 270
+    },
+	{
+      "model": "minecraft:block/dead_bush_2"
+    },
+		{
+      "model": "minecraft:block/dead_bush_2", "y": 90
+    },
+		{
+      "model": "minecraft:block/dead_bush_2", "y": 180
+    },
+		{
+      "model": "minecraft:block/dead_bush_2", "y": 270
+    }
+	]
+  }
+}

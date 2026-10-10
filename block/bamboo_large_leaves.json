@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/bamboo_leaves",
+		"texture": "block/bamboo_leaves"
+	},
+	"elements": [
+		{
+			"from": [-0.2, -4, 8],
+			"to": [17.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0.8, -6, 9],
+			"to": [17.2, 16, 9],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -2, 1.6],
+			"to": [0, 16, 18],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0.2066, -2, 8.20711],
+			"to": [16.6066, 16, 8.20711],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.6, 0, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [9.63087, -1, 0.74142],
+			"to": [9.63087, 16, 18.14142],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.6, 0, 8.5]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#texture", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [9.27558, -2, 0.18272],
+			"to": [9.27558, 16, 16.58272],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.6, 0, 8.5]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by TheWaschtlPlays using Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "block/bookshelf/book3",
+		"3": "block/bookshelf/book5",
+		"5": "block/bookshelf/book1",
+		"particle": "block/bookshelf/door_oak"
+	},
+	"elements": [
+		{
+			"from": [12.1, 0.8, 0.1],
+			"to": [13.3, 6.8, 3.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.65, 8.3, 8.35]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 4.37813, 8.05937, 16], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [11.42188, 5.875, 13.59375, 16], "texture": "#3"},
+				"west": {"uv": [0, 4.39375, 8.0125, 16], "texture": "#3"},
+				"up": {"uv": [11.42188, 4.90938, 13.60625, 10.07813], "texture": "#3"}
+			}
+		},
+		{
+			"from": [10.9, 0.8, 0.1],
+			"to": [12.1, 5.8, 3.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.45, 8.3, 8.35]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 4.37813, 8.05937, 16], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [11.42188, 5.875, 13.59375, 16], "texture": "#2"},
+				"west": {"uv": [0, 4.39375, 8.0125, 16], "texture": "#2"},
+				"up": {"uv": [11.42188, 4.90938, 13.60625, 10.07813], "texture": "#2"}
+			}
+		},
+		{
+			"from": [13.35, 0.8, -0.1],
+			"to": [14.65, 7.2, 3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 8.3, 8.35]},
+			"faces": {
+				"north": {"uv": [14.06563, 4.37813, 16, 16], "texture": "#5", "cullface": "north"},
+				"east": {"uv": [0, 4.37813, 5.05937, 16], "rotation": 180, "texture": "#5", "cullface": "north"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#5"},
+				"west": {"uv": [0, 4.39375, 5.0125, 16], "texture": "#5"},
+				"up": {"uv": [11.40625, 4.90938, 13.54375, 8.46875], "texture": "#5"},
+				"down": {"uv": [11.40625, 4.9375, 13.54375, 8.45], "rotation": 180, "texture": "#5", "cullface": "north"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [7.75, 8.3, 8.05],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
